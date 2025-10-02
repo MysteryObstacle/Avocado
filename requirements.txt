@@ -1,0 +1,13 @@
+click==8.1.7
+matplotlib==3.5.3
+datasets==2.19.1
+pandas==1.4.4
+numpy==1.26.3
+plotly==5.10.0
+pytorch-lightning==2.2
+scikit-learn==1.1.2
+seaborn==0.11.2
+wandb # a16f73e5d1385f0e95261b3e736fa6f0eb239d6a
+scapy==2.5.0
+torchmetrics==0.11.4
+jupyterlab
