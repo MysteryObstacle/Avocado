@@ -4,7 +4,16 @@ An Interpretable Fine-Grained Intrusion Detection Model for Advanced Industrial 
 ![](./img/Avocado.svg)
 
 ## 1. Introduction
-XXX.
+Industrial Control Systems (ICS) are increasingly targeted by advanced and stealthy cyberattacks that exploit protocol semantics and fragmented traffic patterns.
+Avocado is a fine-grained intrusion detection framework designed to address this challenge by combining:
+
+Byte-level interpretability – highlighting critical protocol fields that contribute to detection decisions.
+
+Packet-level feature extraction – leveraging CNNs to capture local structural patterns in packet payloads.
+
+Flow-level feature fusion – modeling temporal dependencies across packets to detect covert, multi-stage attacks.
+
+This repository provides the source code, preprocessing scripts, and experiment settings used in our paper “Avocado: An Interpretable Fine-Grained Intrusion Detection Model for Advanced Industrial Control Network Attacks”. The goal is to make our results fully reproducible and to support further research on interpretable ICS intrusion detection.
 
 ## 2. Preparation
 ### 2.1 Clone the repository
